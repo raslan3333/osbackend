@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-@RestController
+
 public class MainController {
 
-    @GetMapping("/greeting")
+    @GetMapping("/")
     public String greeting() {
-        return "Hello Bashar";
+        return "index";
     }
 }
